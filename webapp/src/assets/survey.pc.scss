@@ -1,0 +1,126 @@
+.ques-page{background-color: #ebf6fe; }
+.ques-wrap *{font-size: 16px}
+.ques-wrap {
+    overflow: hidden;
+    max-width: 990px;
+    margin: 0 auto;
+    border-radius: 4px;
+    .ques-title {
+        font-size: 30px;
+        text-align: center;
+        margin: 50px 0 50px;
+        font-weight: 500;
+    } 
+    .ques-explain{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5em;
+        text-indent: 2em;
+        width:90%;
+        margin: 10px auto 30px;
+    }
+    .ques-box{
+        background: #fff;
+        padding: 40px 70px;
+        position: relative;
+        .ques-item{  
+            margin-bottom: 35px; 
+        }
+        .ques-name{
+            margin:5px 0 10px;
+            font-size: 16px;
+        }
+
+        
+        .progress{
+            background: #fff;
+            padding: 14px 16px;
+            position: absolute;
+            left:0;right: 0;top:0;
+            .progress-bar{
+                position: relative;
+                height: 6px;
+                background-color: #bfe3fd;
+            }
+            .progress-done{
+                position: absolute;
+                left: 0;
+                top: 0;
+                height: 100%;
+                width:0;
+                background-color: #018fff;
+                -webkit-transition: all 0.3s;
+                transition: all 0.3s;
+            }
+        }
+        .progress.fixed {
+            position: fixed;
+            -webkit-box-shadow: 0 2px 1px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 2px 1px rgba(0, 0, 0, 0.1);
+            z-index: 10;
+            width: 990px;
+            margin: auto;
+        }
+
+
+        .option-item{
+            width: 100%;
+        }
+        .my-radio label,.my-checkbox label{ padding:8px 10px; }
+        .matrix-table label{
+            padding: 15px 10px;
+        }
+        .my-radio :hover,.my-checkbox :hover{background: #e9effe;}
+        
+    }
+
+    .matrix-range .matrix-mobile{
+        display: none;
+    }
+}
+
+.btn-submit{
+    margin:50px auto;
+    width:220px;
+    height: 38px;
+    display: block;
+    float:none;
+    font-size: 14px;
+}
+
+
+
+.ques-error{
+    background-color: rgba(218,35,25,1);
+    display: inline-block;
+    margin-left: 4px;
+    padding: 2px 7px;
+    border-radius: 3px;
+    color: #fff;
+    line-height: 1.5em;
+    position: relative;
+    animation: error 1s ease-in-out both;
+}
+
+@keyframes error {
+  0%,
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    -webkit-transform: translateX(-2px);
+            transform: translateX(-2px);
+  }
+  20%,
+  40%,
+  60%,
+  80% {
+    -webkit-transform: translateX(2px);
+            transform: translateX(2px);
+  }
+}

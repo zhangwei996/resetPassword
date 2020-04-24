@@ -1,0 +1,38 @@
+﻿ol,ul {padding:0px !important;margin:0px !important;list-style:none;}
+html {-webkit-text-size-adjust: none;}
+body {background-color:rgb(240, 240, 240);font-family:"微软雅黑" !important;color:#333;height:100%;width:100%;margin:0;padding:0;}
+a,h1,h2,h3,h4,h5,b,tt{color:#333333;text-decoration:none;font-family:"微软雅黑" !important;outline: none;-webkit-transition: all 0.2s ease-out;-moz-transition: all 0.2s ease-out;-o-transition: all 0.2s ease-out;-ms-transition: all 0.2s ease-out;transition: all 0.2s ease-out;}
+
+/*公共*/
+body{background: #ffffff !important;overflow: auto;}
+.body{background: #ffffff;width: 100%;display: block;max-height: 1080px;padding-bottom:60px;}
+.titles{height:56px;line-height: 56px;text-align: center;background: #f9ad36;}
+.titles h2{font-size: 22px;color: #fff;font-weight: 400;}
+
+/* 响应式布局 */
+@media screen and (max-device-width: 480px) {
+  .Feedback_nei ul li{width: 29.5%;}
+  .wtfk{background-size:340px;}
+}	
+@media screen and (max-device-width: 375px) {
+  .wtfk{background-size:290px;}
+}
+@media screen and (max-device-width: 360px) {
+  .Feedback_nei ul li{width: 29.5%;}
+  .wtfk{background-size:270px;}
+}
+@media screen and (max-device-width: 320px) {
+  .Feedback_nei ul li{width: 29.5%;}
+  .wtfk{background-size:240px;}
+}
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		

@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: bsch-resetPsd
+  profiles:
+    active: dev
+#    active: lingdang
+  cloud:
+    config:
+      uri: http://config.bestsch.com
+      fail-fast: true
+      name: ${spring.application.name},public
+      profile: ${spring.profiles.active}
+
+encrypt:
+  key-store:
+    location: classpath:/bschconfig.jks
+    password: 5O990EszCfPDiNyK
+    alias: bschconfigkey
+    secret: 5O990EszCfPDiNyK
+

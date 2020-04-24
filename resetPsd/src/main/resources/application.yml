@@ -1,0 +1,52 @@
+server:
+  port: 8082
+
+spring:
+  mvc:
+    date-format: yyyy-MM-dd HH:mm:ss
+  servlet:
+    multipart:
+      max-file-size: 50MB # 单个文件大小
+  jackson:
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd HH:mm:ss
+
+  data:
+    redis:
+      repositories:
+        enabled: false
+  http:
+    encoding:
+      force: true
+      charset: utf-8
+      enabled: true
+  #jpa
+
+#单点登录
+
+bsch:
+  sso:
+    server-url-prefix: http://ssodebug.bestsch.com
+    client-host-url: http://localhost:8082
+    allow-headers: all
+    allow-origins: all
+    url-pattern: /mobiapi/*
+#    ignore-pattern: /mobiapi/*
+#    mobi-api-pattern: /mobiapi/*
+  open:
+    base-host: http://basedebug.bestsch.com
+    app-key: 100278
+    app-secret: 59751f03a1c04951baa7f7a17f489539
+    schbase-host: http://schd.bestsch.com
+    homelx-host: http://debughomelx.hongyucloud.com
+    msg-host: http://msgd.bestsch.com/
+
+
+FILE_PATH: D://BschResetPsd/
+
+FILE_WEB_PATH: http://localhost:8082/upload/
+
+
+
+
+

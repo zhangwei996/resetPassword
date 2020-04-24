@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.bestsch:bsch-sso:1.2.2-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/bestsch/bsch-sso/1.2.2-SNAPSHOT/bsch-sso-1.2.2-20200408.022254-17.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/bestsch/bsch-sso/1.2.2-SNAPSHOT/bsch-sso-1.2.2-20200408.022254-17-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/bestsch/bsch-sso/1.2.2-SNAPSHOT/bsch-sso-1.2.2-20200408.022254-17-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
